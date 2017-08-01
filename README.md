@@ -24,7 +24,7 @@ end
 ```
 run `rake db:migrate` and then `rake db:seed`
 and make sure you set up the relations between the models as follows:
-Country has_many :states
-State belongs_to :country
-State has_many :counties
+Country has_many :states<br>
+State belongs_to :country<br>
+State has_many :counties<br>
 County belongs_to :state
